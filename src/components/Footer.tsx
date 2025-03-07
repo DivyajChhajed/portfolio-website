@@ -6,14 +6,14 @@ import { MailCheck } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="w-full bg-black text-white py-6 mt-10">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center px-6">
         {/* Left Section - Copyright */}
         <div className="text-center md:text-left text-sm">
           &copy; {new Date().getFullYear()} Divyaj Chhajed. All Rights Reserved.
         </div>
 
         {/* Center Section - Navigation Links */}
-        <nav className="flex space-x-6 my-4 md:my-0">
+        {/* <nav className="flex space-x-6 my-4 md:my-0 translate-x-0">
           <Link href="/" className="hover:text-gray-400 transition">
             Home
           </Link>
@@ -26,10 +26,10 @@ const Footer = () => {
           <Link href="/contact" className="hover:text-gray-400 transition">
             Contact
           </Link>
-        </nav>
+        </nav> */}
 
         {/* Right Section - Social Media Links */}
-        <div className="flex space-x-4">
+        {/* <div className="flex space-x-4">
           <Link href="mailto:divyajchhajeddc16102004@gmail.com" target="_blank">
             <MailCheck className="text-xl hover:text-gray-400 transition" />
           </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
           <Link href="https://twitter.com/yourusername" target="_blank">
             <FaXTwitter className="text-xl hover:text-gray-400 transition" />
           </Link>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

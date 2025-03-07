@@ -39,7 +39,7 @@ const AnimatedText = ({ text, className = "" }) => {
         {text.split(" ").map((word, index) => (
           <motion.span
             key={word + "-" + index}
-            className="inline-block mr-2 hover:text-indigo-600 transition-colors duration-300"
+            className="inline-block mr-2 hover:text-gray-600 transition-colors duration-300"
             variants={single}
           >
             {word}
